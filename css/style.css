@@ -1,0 +1,502 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    
+}
+/*main header*/
+.main-header
+{
+    background-image: url(../imgs/BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    text-align: center
+}
+.main-header img
+{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #bbb;
+    border-radius: 50%;
+    margin-top: 180px;
+    margin-bottom: 15px
+    
+}
+.main-header h1
+{
+    color: white;
+    padding: 5px;
+    font-family:monospace;
+}
+/*End Main header here*/
+/*start about me */
+.about-me
+{
+    padding: 30px;
+}
+.about-me h2
+{
+    color: #404040;
+}
+.about-me p
+{
+    padding: 20px;
+    color: #5a5a5a;
+    border: 1px solid #d1d153;
+    letter-spacing: 2px;
+}
+.about-me span
+{
+    margin: 10px;
+}
+.about-me .name
+{
+    color: #291c64;
+}
+.about-me .age
+{
+    color: red;
+}
+.about-me .loca
+{
+    color: green;
+}
+.about-me .mobi
+{
+    color: brown;
+}
+.about-me .care
+{
+    color: sandybrown;
+}
+.about-me .lang
+{
+    color: crimson;
+}
+.about-me .nick
+{
+    color: darkolivegreen;
+}
+.about-me .coll
+{
+    color:darkslategrey;
+}
+/*End about me here*/
+/*Serves start here*/
+.serves h2
+{
+    color: #e8e8e8;
+}
+.serves 
+{
+    padding: 30px;
+    background-color: #292929;
+}
+.serves .container .serve h3
+{
+    color: white;
+    margin-bottom: 10px;
+}
+.serves .container .serve i
+{
+    font-size: 36px;
+    color: yellow;
+    margin: 5px;
+}
+.serves .container .serve p
+{
+    color: #a0a03b;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+}
+.serves .container .col-md-3
+{
+    width: 50%;
+    margin-bottom: 20px;
+}
+/*End Serves here*/
+/*My Skills main Section*/
+/*my skills in large screen*/
+.my-skills
+{
+    background-color: #f1f1f1;
+    padding: 30px;
+}
+.my-skills h3
+{
+    margin-bottom: 15px;
+}
+.my-skills p
+{
+    margin-left: 280px;
+    font-size: 18px;
+    margin-top:10px;
+    margin-bottom: 0px;
+}
+/* Make sure that padding behaves as expected */
+*{box-sizing: border-box;}
+/* Container for skill bars */
+.large {
+    width: 60%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    margin-left: 280px;
+    margin-bottom: 10px;`
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+    
+}
+
+.html {width: 95%; background-color: #4CAF50;height: 40px;} /* Green */
+.css {width: 90%; background-color: #2196F3;height: 40px;} /* Blue */
+.js {width: 5%; background-color: #f44336;height: 40px;} /* Red */
+.php {width: 1%; background-color: #808080;height: 40px;} /* Dark Grey */
+.csharp {width: 35%; background-color: #F6B71B;height: 40px;}
+.python {width: 15%; background-color: #40BC8A;height: 40px;}
+/*end my skills large screen*/
+/*my skills in meduim screens start here*/
+my-skillmeduim
+{
+    background-color: #f1f1f1;
+}
+.my-skillmeduim p
+{
+    margin-left: 230px;
+    font-size: 18px;
+    margin-top:10px;
+    margin-bottom: 0px;
+}
+/* Make sure that padding behaves as expected */
+*{box-sizing: border-box;}
+/* Container for skill bars */
+.meduim {
+    width: 60%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    margin-left: 230px;
+    margin-bottom: 10px;`   
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+    
+}
+
+.html {width: 95%; background-color: #4CAF50;height: 40px;} /* Green */
+.css {width: 90%; background-color: #2196F3;height: 40px;} /* Blue */
+.js {width: 5%; background-color: #f44336;height: 40px;} /* Red */
+.php {width: 1%; background-color: #808080;height: 40px;} /* Dark Grey */
+.csharp {width: 35%; background-color: #F6B71B;height: 40px;}
+.python {width: 15%; background-color: #40BC8A;height: 40px;}
+/*my skills in meduim screens end here*/
+/*my skill in small screens*/
+.my-skillsmall
+{
+    background-color: #f1f1f1;
+}
+.my-skillsmall p
+{
+    margin-left: 200px;
+    font-size: 18px;
+    margin-top:10px;
+    margin-bottom: 0px;
+}
+/* Make sure that padding behaves as expected */
+*{box-sizing: border-box;}
+/* Container for skill bars */
+.small {
+    width: 60%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    margin-left: 200px;
+    margin-bottom: 10px;`
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+    
+}
+
+.html {width: 95%; background-color: #4CAF50;height: 40px;} /* Green */
+.css {width: 90%; background-color: #2196F3;height: 40px;} /* Blue */
+.js {width: 5%; background-color: #f44336;height: 40px;} /* Red */
+.php {width: 1%; background-color: #808080;height: 40px;} /* Dark Grey */
+.csharp {width: 35%; background-color: #F6B71B;height: 40px;}
+.python {width: 15%; background-color: #40BC8A;height: 40px;}
+/*my skills in small screens end here*/
+/*my skills in mobile screens strat here*/
+.my-skillmob
+{
+    background-color: #f1f1f1;
+}
+.my-skillmob p
+{
+    margin-left: 60px;
+    font-size: 18px;
+    margin-top:10px;
+    margin-bottom: 0px;
+}
+/* Make sure that padding behaves as expected */
+*{box-sizing: border-box;}
+/* Container for skill bars */
+.mobile {
+    width: 60%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    margin-left: 60px;
+    margin-bottom: 10px;   
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 50px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+    
+}
+
+.html {width: 95%; background-color: #4CAF50;height: 40px;} /* Green */
+.css {width: 90%; background-color: #2196F3;height: 40px;} /* Blue */
+.js {width: 5%; background-color: #f44336;height: 40px;} /* Red */
+.php {width: 1%; background-color: #808080;height: 40px;} /* Dark Grey */
+.csharp {width: 35%; background-color: #F6B71B;height: 40px;}
+.python {width: 15%; background-color: #40BC8A;height: 40px;}
+/*my skills in mobile screens end here*/
+/*End My Skills main section*/
+/*My projects start here*/
+.projects
+{
+    padding: 30px;
+    background-color: #dbdbdb;
+}
+.projects .container h3
+{
+    padding: 10px;
+    color: #4e4e4e;
+}
+.projects .thumbnail {
+    position:relative;
+    overflow:hidden;
+    border: 1px solid #b5b53f;
+}
+ 
+.projects .thumbnail .caption {
+    position:absolute;
+    top:-100%;
+    right:0;
+    background:rgba(66, 139, 202, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.projects .thumbnail:hover .caption {
+    top:0%;
+}
+/*end my projects here*/
+/*scroll to top button css*/
+#scroll-up
+{
+    width: 50px;
+    height: 50px;
+    color: #faff31;
+    background-color: #574508;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9999;
+    right: 15px;
+    bottom: 10px;
+    display: none;
+    cursor: pointer;
+}
+#scroll-up:hover,
+#scroll-up:focus
+{
+    background-color: #2c2303;
+}
+/*scroll to top button end here*/
+/*Social media icons start here*/
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+.social {
+      margin: 20px 10px;
+      text-align: center;
+      padding: 30px;
+}
+.social h2
+{
+    margin-bottom: 30px;
+}
+.social a
+{
+    text-decoration: none
+}
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border:2px solid #ddd; /* add border to the buttons */
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+    margin: 5px;
+}
+
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+      
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+      border-color: #00ABE3;
+}
+
+/* google plus button class*/
+.googleplusBtn{
+    background: #e64522;
+}
+
+.googleplusBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d5"; /* add googleplus icon */
+}
+
+.googleplusBtn:hover{
+      color: #e64522;
+      background: #fff;
+      border-color: #e64522;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+      border-color: #0094BC;
+}
+
+/* pinterest button class*/
+.pinterestBtn{
+    background: #cb2027;
+}
+
+.pinterestBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d2"; /* add pinterest icon */
+}
+
+.pinterestBtn:hover{
+      color: #cb2027;
+      background: #fff;
+      border-color: #cb2027;
+}
+
+/* tumblr button class*/
+.tumblrBtn{
+    background: #3a5876;
+}
+
+.tumblrBtn:before{
+      font-family: "FontAwesome";
+      content: "\f173"; /* add tumblr icon */
+}
+
+.tumblrBtn:hover{
+      color: #3a5876;
+      background: #fff;
+      border-color: #3a5876;
+}
+
+/* rss button class*/
+.rssBtn{
+    background: #e88845;
+}
+
+.rssBtn:before{
+      font-family: "FontAwesome";
+      content: "\f09e"; /* add rss icon */
+}
+
+.rssBtn:hover{
+      color: #e88845;
+      background: #fff;
+      border-color: #e88845;
+}
+
+
+/*social media icons end here*/
+/*start footer here*/
+.footer
+{
+    background-color: #0f0f0f;
+}
+/*end footer css here*/
+.copy
+{
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+}
+.copy span
+{
+    color: #d7e000;
+}
